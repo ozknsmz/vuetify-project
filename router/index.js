@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Dashboard from '../views/Dashboard.vue'
+import Users from '../views/Users.vue'
 
 
 Vue.use(VueRouter)
@@ -11,12 +12,11 @@ const routes = [
     name: 'dashboard',
     component: Dashboard
   },
-
-  // {
-  //   path: '/team',
-  //   name: 'team',
-  //   component: Team
-  // }
+   {
+     path: '/users',
+     name: 'users',
+     component: Users
+   },
 ]
 
 const router = new VueRouter({
