@@ -1,16 +1,23 @@
+
 <template>
-  <reg />
+ <v-app>
+   <Navbar/>
+   <v-content class="ma-4">
+     <router-view></router-view>
+   </v-content>
+ </v-app>
 </template>
 
 <script>
-import reg from "./components/reg.vue";
+import Navbar from "./components/Navbar.vue";
+
 export default {
   name: "App",
   data() {
     return {};
   },
   components: {
-    reg,
+    Navbar,
   },
 
 };
