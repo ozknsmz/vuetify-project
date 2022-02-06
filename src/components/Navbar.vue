@@ -18,7 +18,7 @@
           <v-avatar size="100">
             <img src="../assets/img1.png" alt="" />
           </v-avatar>
-          <p class="white--text subheading mt-1 text-center">Username</p>
+          <p class="white--text subheading mt-1 text-center">Name Surname</p>
         </v-flex>
         <v-flex class="mt-4 mb-4">
           <!-- <Popup /> -->
@@ -51,7 +51,7 @@ export default {
     drawer: true,
     links: [
       { icon: "dashboard", text: "Dashboard", route: "/" },
-      { icon: "person", text: "Users", route: "/team" },
+      { icon: "person", text: "Users", route: "/users" },
     ],
   }),
   components: {},
